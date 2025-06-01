@@ -16,7 +16,7 @@ struct Response {
     employee emp;
 };
 
-// ANSI‑имя именованного канала
-static const char* PIPE_NAME = "\\\\.\\pipe\\EmpPipe";
+static const char* PIPE_NAME = "\\\\.\\pipe\\EmployeePipe"; // "\\.\pipe\EmployeePipe" 
+
 
 #endif // PROTOCOL_H
